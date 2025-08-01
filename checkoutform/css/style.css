@@ -1,0 +1,22 @@
+.is-valid {
+    border-color: green;
+    padding-right: 2.5rem;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/190/190411.png');
+    background-position: right 0.75rem center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+  }
+
+  .is-invalid {
+    border-color: red;
+    padding-right: 2.5rem;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/753/753345.png');
+    background-position: right 0.75rem center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+  }
+
+  .form-error {
+    color: red;
+    font-size: 0.8rem;
+  }
