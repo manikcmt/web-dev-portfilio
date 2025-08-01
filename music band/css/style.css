@@ -1,0 +1,32 @@
+.text-justify{
+    text-align: justify;
+}
+
+.navbar img{
+    width: 100px;
+}
+
+.navbar .nav-link{
+    color: black;
+    background: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.navbar .nav-link:hover{
+    color: white;
+    background: black;
+}
+
+.navbar .nav-link.active{
+    color: rgb(251, 7, 7);
+}
+.navbar .nav-link.active:hover{
+    color: white;
+    background: black;
+}
+.feedback-content img{
+    width: 80px;
+    height: 80px;
+}
