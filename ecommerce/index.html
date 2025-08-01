@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-secondary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.svg" alt="" title="Rokomari">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="product-list.html">Product List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="product-details.html">Product Details</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="signup.html">Signup</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">My Account</a></li>
+                <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                <li><a class="dropdown-item" href="signup.html">Register</a></li>
+            </ul>
+            </li>
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <a href="" class="btn btn-outline-light mt-2 mt-lg-0 ms-0 ms-lg-2 d-block">Add to Cart</a>
+        </div>
+    </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- banner start -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/banner.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner2.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner3.webp" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- banner end -->
+
+    <!-- product section start -->
+    <section class="container py-5">
+        <h2 class="text-center my-3">
+            <span class="border border-3 border-danger border-top-0 border-end-0 border-start-0">
+                Best Sellers
+            </span>
+        </h2>
+        <div class="row gy-4">
+            <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="img/best1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Bela Porarber Aje</h4>
+                        <h5>2500 BDT</h5>
+                        <a href="#" class="btn btn-outline-success d-block">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="img/best1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Bela Porarber Aje</h4>
+                        <h5>2500 BDT</h5>
+                        <a href="#" class="btn btn-outline-success d-block">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="img/best1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Bela Porarber Aje</h4>
+                        <h5>2500 BDT</h5>
+                        <a href="#" class="btn btn-outline-success d-block">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="img/best1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Bela Porarber Aje</h4>
+                        <h5>2500 BDT</h5>
+                        <a href="#" class="btn btn-outline-success d-block">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product section end -->
+    
+    <!-- product section start -->
+    <section class="container pb-5">
+        <h2 class="text-center my-3">
+            <span class="border border-3 border-danger border-top-0 border-end-0 border-start-0">
+                New Product
+            </span>
+        </h2>
+        <div class="row gy-4">
+            <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="img/best2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Bela Porar age</h4>
+                        <h5>200 BDT</h5>
+                        <a href="#" class="btn btn-outline-success d-block">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="img/best2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Bela Porar age</h4>
+                        <h5>200 BDT</h5>
+                        <a href="#" class="btn btn-outline-success d-block">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="img/best2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Bela Porar age</h4>
+                        <h5>200 BDT</h5>
+                        <a href="#" class="btn btn-outline-success d-block">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="img/best2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Bela Porar age</h4>
+                        <h5>200 BDT</h5>
+                        <a href="#" class="btn btn-outline-success d-block">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product section end -->
+
+    <!-- footer start -->
+    <footer class="container-fluid bg-dark py-4">
+        <p class="text-light text-center m-0">
+            &copy; 2025 DTTI. All Rights Reserved.
+        </p>
+        <p class="text-light text-center m-0 mt-2" id="datetime"></p>
+    </footer>
+    <!-- footer end -->
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
